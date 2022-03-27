@@ -252,7 +252,7 @@ th {
 }
 footer {
 	text-align: center;
-	background: url(/img/back.jpg) repeat;
+	background: url("/img/back.jpg") repeat;
 	padding: 40px 0px;
 	width: 100%;
 }
