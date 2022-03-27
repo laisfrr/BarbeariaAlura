@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  Barbearia Alura feita nas primeiras aulas de HTML e CSS da  Alura.
+  Site da Barbearia Alura feita nas primeiras aulas de HTML e CSS da  Alura.
 </h4>
 
 ---
