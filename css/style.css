@@ -262,7 +262,7 @@ th {
 	width: 560px;
 	margin: 5em auto;
 }
-/*RESPONSIVO*/
+/*RESPONSIVO===================================================================*/
 @media screen and (max-width: 480px) {
 	.caixa,
 	.principal,
@@ -313,7 +313,12 @@ th {
 .produtos li{
 	width: 90vw;
 	margin: 15px 0px;
-}
+	}
+	.copy {
+		color: #ffffff;
+		font-size: 13px;
+		margin-top: 20px;
+	}
 }
 @media (max-width: 912px) and (min-width: 541px){
 		.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video,.produtos {
@@ -339,5 +344,9 @@ th {
 		padding: 40px 0px;
 	}
 
-
+	.copy {
+		color: #ffffff;
+		font-size: 13px;
+		margin-top: 20px;
+	}
 }
