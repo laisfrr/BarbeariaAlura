@@ -10,7 +10,7 @@
 
 <h3>VERSÃO WEB</h3>
 
-![Resultado final do projeto](./img/home.png)
+![Resultado final do projeto](/img/web.png)
 
 <h3>VERSÃO MOBILE</h3>
 
