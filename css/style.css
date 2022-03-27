@@ -252,8 +252,9 @@ th {
 }
 footer {
 	text-align: center;
-	background: url("./img/back.jpg");
+	background: url(/img/back.jpg) repeat;
 	padding: 40px 0px;
+	width: 100%;
 }
 
 .copy {
@@ -261,6 +262,8 @@ footer {
 	font-size: 13px;
 	margin-top: 20px;
 }
+
+
 /*RESPONSIVO===================================================================*/
 @media screen and (max-width: 480px) {
 	.caixa,
@@ -299,7 +302,7 @@ footer {
 		display: block;
 		width: 100vw;
 		text-align: center;
-		background: url("./img/back.jpg");
+		background: url(/img/back.jpg);
 		padding: 40px 0px;
 	}
 
@@ -343,7 +346,7 @@ footer {
 		display: block;
 		width: 100vw;
 		text-align: center;
-		background: url("./img/back.jpg");
+		background: url(/img/back.jpg);
 		padding: 40px 0px;
 	}
 
