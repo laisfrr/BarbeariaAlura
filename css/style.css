@@ -295,7 +295,13 @@ th {
 	.imagem-beneficios {
 		width: 80%;
 		margin-top: 50px;
-}
+	}
+	footer {
+		text-align: center;
+		background: url('/img/bg.jpg');
+		padding: 40px 0px;
+	}
+
 .produtos{
 	display: flex;
 	flex-direction: column;
@@ -325,6 +331,12 @@ th {
 
 		.imagem-beneficios {
 			width: 60%;
+	}
+
+	footer {
+		text-align: center;
+		background: url('/img/bg.jpg');
+		padding: 40px 0px;
 	}
 
 
