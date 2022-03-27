@@ -18,7 +18,7 @@
   <tr>
     <td align="center">
       <a href="https://github.com/laisfrr">
-        <img src="./img/mobile.jpeg" width="200px;" alt=""/><br>
+        <img src="./img/mobile.png" width="200px;" alt=""/><br>
       </a>
     </td>
   </tr>
