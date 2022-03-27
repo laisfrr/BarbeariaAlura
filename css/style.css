@@ -341,7 +341,7 @@ footer {
 
 	footer {
 		text-align: center;
-		background: url("/img/back.jpg");
+		background: url('/img/back.jpg');
 		padding: 40px 0px;
 	}
 
