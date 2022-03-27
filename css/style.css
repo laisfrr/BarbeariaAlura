@@ -252,9 +252,8 @@ th {
 }
 footer {
 	text-align: center;
-	background: url("/img/back.jpg") repeat;
+	background: url("/img/back.jpg");
 	padding: 40px 0px;
-	width: 100%;
 }
 
 .copy {
@@ -299,10 +298,8 @@ footer {
 		margin-top: 50px;
 	}
 	footer {
-		display: block;
-		width: 100vw;
 		text-align: center;
-		background: url(/img/back.jpg);
+		background: url("/img/back.jpg");
 		padding: 40px 0px;
 	}
 
@@ -343,10 +340,8 @@ footer {
 	}
 
 	footer {
-		display: block;
-		width: 100vw;
 		text-align: center;
-		background: url(/img/back.jpg);
+		background: url("/img/back.jpg");
 		padding: 40px 0px;
 	}
 
