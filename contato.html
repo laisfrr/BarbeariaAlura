@@ -8,6 +8,7 @@
     <title>Contato - Barbearia Alura</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -27,18 +28,22 @@
     </header>
 
     <main>
-        <form action="">
-            <label for="nomesobrenome">Nome e Sobrenome</label>
-            <input type="text" id="nomesobrenome" class="input-padrao" required>
 
+        <form action="" method="" name="formcontato">
+            <span id="msgSucesso"></span>
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="name" class="input-padrao" name="nome" required>
+            <span id="nomeErro"></span>
             <label for="email">Email</label>
             <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+            <span id="emailErro"></span>
 
             <label for="telefone">Telefone</label>
             <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
-
+            <span id="telErro"></span>
             <label for="mensagem">Mensagem</label>
             <textarea name="" id="mensagem" cols="70" rows="10" class="input-padrao" required></textarea>
+            <span id="msgErro"></span>
             <fieldset>
                 <legend>Como prefere o nosso contato?</legend>
                 <label for="radio-email"><input name="contato" type="radio" value="email" id="radio-email">Email</label>
@@ -54,7 +59,7 @@
                 </select>
             </fieldset>
             <label for="" class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por email?</label>
-            <input type="submit" value="Enviar Formulário" class="enviar">
+            <input type="submit" value="Enviar Formulário" class="enviar" id="send">
         </form>
         <table>
             <thead>
@@ -83,6 +88,7 @@
         <img src="./img/logo-branco.png" alt="Logo da Barbearia Alura">
         <p class="copy"> &copy; Copyright Barbearia Alura - 2019</p>
     </footer>
+
 </body>
 
 </html>
