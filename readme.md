@@ -39,13 +39,15 @@
 
 -   HTML;
 -   CSS;
-- *Javascript ("em breve, com validação de formulário")*
+- Javascript;
 ---
 
 ## ⚠ Dificuldades durante o projeto
 
 -   Aplicar responsividade
 -   Alinhas elementos com CSS
+-   Utilizar DOM (javaScript)
+-   Funções
 
 ---
 
